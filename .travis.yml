@@ -6,5 +6,5 @@ script:
   - bundle exec rake db:test:prepare
   - bundle exec rspec
 
-rvm: 
+rvm:
 - 2.3.1
