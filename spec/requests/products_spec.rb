@@ -1,4 +1,6 @@
 require 'rails_helper'
+require 'coveralls'
+Coveralls.wear!('rails')
 
 RSpec.describe 'Products API', type: :request do
   let!(:products) { create_list(:product, 10) }

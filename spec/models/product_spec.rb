@@ -1,4 +1,6 @@
 require 'rails_helper'
+require 'coveralls'
+Coveralls.wear!('rails')
 
 RSpec.describe Product, type: :model do
   it { should validate_presence_of(:name) }
